@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+jwt:
+  secretKey: a!m@12itha!m@12itha!m@12itha!m@12itha!m@12itha!m@12itha!m@12itha!m@12ith
+  tokenPrefix: Bearer
+  tokenExpirationDate: 14
+  tokenHeader: Authorization
+  claimsName: authorities
+  authority: authority
+  
+AUTHORIZATION_SERVICE: http://localhost:8080
+
+POLICY_SERVICE: http://localhost:8333/policy-serivce
+
+CONSUMER_SERVICE: http://localhost:8133/consumer-serivce
